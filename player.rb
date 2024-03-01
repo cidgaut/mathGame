@@ -11,17 +11,4 @@ class Player
   def lose_life
     @lives -=1
   end
-
-  def player_score
-    "#{name}: #{lives} lives"
-  end
 end
-
-player1 = Player.new("Player 1")
-puts player1.player_score
-player1.lose_life
-puts player1.player_score
-player1.lose_life
-puts player1.player_score
-player1.lose_life
-puts player1.player_score
