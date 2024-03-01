@@ -1,0 +1,1 @@
+# game class that generates game rules, math, question/answers, and keeps track of player turn.
